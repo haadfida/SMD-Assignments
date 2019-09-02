@@ -24,6 +24,13 @@ public class Driver {
         System.out.println();
         System.out.println("Total number of shapes: " + Shape.numOfObjects);
 
+        System.out.println();
+        System.out.println("Deleting Triangle");
+        Erase Eraser= new Erase();
+        ShapeList.remove(triangle);
+        System.out.println("Total number of shapes: " + Shape.numOfObjects);
+
+
     }
 
 }
