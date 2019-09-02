@@ -1,9 +1,11 @@
 public final class Erase {
-    private final String eraserMessage = "has been deleted";
+    private final String eraserMessage = " shape has been deleted";
     Erase()
     {
         try{
+            System.out.println("Eraser called");
             System.out.println(eraserMessage);
+            Shape.numOfObjects = Shape.numOfObjects - 1;
         }
         catch(Exception e)
         {
