@@ -1,5 +1,3 @@
-package assignment1;
-
 public class Player {
     static int age;
     static String name;

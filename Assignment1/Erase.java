@@ -1,5 +1,3 @@
-package assignment1;
-
 public final class Erase {
     private final String eraserMessage = "has been deleted";
     Erase()
