@@ -1,12 +1,28 @@
+package assignment1;
+
 public class Circle extends Shape{
     @Override
     public void draw() {
-        System.out.println("This is a Circle.");
-        Shape.numOfObjects = Shape.numOfObjects + 1;
+        try
+        {
+            System.out.println("This is a Circle.");
+            Shape.numOfObjects = Shape.numOfObjects + 1;
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());            
+        }
     }
 
     @Override
     public void hasEdges() {
-        System.out.println("This is a Triangle.");
+        try {
+        System.out.println("This is a Circle. It has no edges.");
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());            
+        }
+
     }
 }
