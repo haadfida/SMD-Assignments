@@ -1,6 +1,9 @@
+import java.util.ArrayList;
+
 public class Driver {
 
     public static void main(String[] args) {
+
         ArrayList<Shape> ShapeList= new ArrayList();
         Circle circle = new Circle();
         circle.draw();
@@ -30,7 +33,14 @@ public class Driver {
         ShapeList.remove(triangle);
         System.out.println("Total number of shapes: " + Shape.numOfObjects);
 
+        Player player=new Player(19,"Haad","Pakistan");
+        Player.Teenager teen = new Player.Teenager(player, "Lahore Kalandar");
+
+
+
 
     }
+
+
 
 }
