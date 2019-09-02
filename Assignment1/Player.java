@@ -1,28 +1,51 @@
 public class Player {
     static int age;
+    static String planet = "Earth";
     static String name;
-    String nationality;
-    int[] pointsEarnedEachTime = {12,13,14};
+    static String nationality;
+    boolean retired = false;
 
-    public static void showAge(){
-        System.out.println("The age of " + name + " is " + age);
+
+    Player(int age, String name, String nationality){
+        Player.age =age;
+        Player.name =name;
+        Player.nationality =nationality;
+    }
+
+    public static void showPlanet(){
+        System.out.println("This player curently resides in Earth");
 
     }
 
     public static void showName(){
-        System.out.println("The name of the Person is" + name);
+        System.out.println("This player name is " + name);
     }
+
+    public static void showNationality(){
+        System.out.println("This player name is " + nationality);
+    }
+
+    public void isRetired(boolean retired){
+
+        this.retired = retired;
+    }
+
+
 
     public static class Teenager{
         String club;
-        Player test;
-        Teenager()
+
+        private void showClub(){
+            System.out.println("The player belongs to " + club);
+        }
+        Teenager(Player player, String club)
         {
             try
             {
-                test.showName();
-                test.showAge();
-                System.out.println(test.pointsEarnedEachTime[10]);
+                player.showPlanet();
+                player.showName();
+                player.showNationality();
+                this.showClub();
             }
             catch(Exception e)
             {
