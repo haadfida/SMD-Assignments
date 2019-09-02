@@ -21,6 +21,9 @@ public class Driver {
             System.out.println("An error occured while adding Trinalge to ShapeList");
         }
 
+        System.out.println();
+        System.out.println("Total number of shapes: " + Shape.numOfObjects);
+
     }
 
 }
