@@ -1,13 +1,25 @@
 public class Driver {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Circle circle = null;
+        ArrayList<Shape> ShapeList= new ArrayList();
+        Circle circle = new Circle();
         circle.draw();
         circle.hasEdges();
+        try {
+            ShapeList.add(circle);
+        }
+         catch (Exception e) {
+        System.out.println("An error occured while adding Circle to ShapeList");
+        }
+        Triangle triangle = new Triangle();
+        triangle.draw();
+        triangle.hasEdges();
+        try {
+            ShapeList.add(triangle);
+        }
+        catch (Exception e) {
+            System.out.println("An error occured while adding Trinalge to ShapeList");
+        }
 
     }
 
