@@ -1,13 +1,12 @@
 public class Triangle extends Shape {
     @Override
-    public void draw() {
+    public void noOfSides() {
         try{
-        System.out.println("This is a Triangle.");
-        Shape.numOfObjects = Shape.numOfObjects + 1;
+            System.out.println("This is a Triangle. It has 3 sides.");
         }
         catch(Exception e)
         {
-            System.out.println(e.getMessage());                        
+            System.out.println(e.getMessage());
         }
     }
 
