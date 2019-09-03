@@ -1,14 +1,12 @@
-public class Circle extends Shape{
+public class Circle extends Shape {
     @Override
-    public void draw() {
-        try
-        {
-            System.out.println("This is a Circle.");
-            Shape.numOfObjects = Shape.numOfObjects + 1;
+    public void noOfSides() {
+        try{
+            System.out.println("This is a Circle. It has no sides");
         }
         catch(Exception e)
         {
-            System.out.println(e.getMessage());            
+            System.out.println(e.getMessage());
         }
     }
 
