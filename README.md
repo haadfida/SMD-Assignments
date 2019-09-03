@@ -1,4 +1,3 @@
- SMD-Assignments
+ SMD-Assignments develop branch
 
-SMD CS404 Assignments uploaded here
-Testing out develop branch
+SMD CS404 Assignment 1 worked on here.
