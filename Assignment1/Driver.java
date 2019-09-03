@@ -3,11 +3,10 @@ import java.util.ArrayList;
 public class Driver {
 
     public static void main(String[] args) {
-
+        
+        Shape s = null;
         ArrayList<Shape> ShapeList= new ArrayList();
         Circle circle = new Circle();
-        circle.draw();
-        circle.hasEdges();
         try {
             ShapeList.add(circle);
         }
@@ -15,14 +14,20 @@ public class Driver {
         System.out.println("An error occured while adding Circle to ShapeList");
         }
         Triangle triangle = new Triangle();
-        triangle.draw();
-        triangle.hasEdges();
         try {
             ShapeList.add(triangle);
         }
         catch (Exception e) {
             System.out.println("An error occured while adding Trinalge to ShapeList" + "\n");
         }
+        s.draw(ShapeList);
+
+        System.out.println();
+        circle.noOfSides();
+        circle.hasEdges();
+        triangle.noOfSides();
+        triangle.hasEdges();
+        
 
         System.out.println("Total number of shapes: " + Shape.numOfObjects + "\n");
 
