@@ -45,6 +45,7 @@ public class Player {
                 player.showPlanet();
                 player.showName();
                 player.showNationality();
+                this.club = club;
                 this.showClub();
             }
             catch(Exception e)
