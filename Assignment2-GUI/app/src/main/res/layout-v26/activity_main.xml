@@ -39,7 +39,7 @@
         app:srcCompat="@mipmap/logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signupbutton"
         android:layout_width="159dp"
         android:layout_height="53dp"
         android:background="@drawable/signupbuttonshape"
