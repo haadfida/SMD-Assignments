@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">GUI Demo (16L-4032)</string>
     <string name="signup">Signup</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
@@ -10,8 +10,13 @@
     <string name="male">Male</string>
     <string name="logo_of_application">logo of Application</string>
     <string name="title_activity_tabbed">TabbedActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Relative Layout</string>
+    <string name="tab_text_2">Constraint Layout</string>
+    <string name="tab_text_3">Frame Layout</string>
+    <string name="tab_text_4">Linear Layout</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

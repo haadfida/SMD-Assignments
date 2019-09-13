@@ -17,7 +17,7 @@ import com.example.myapplication.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_2,R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_3, R.string.tab_text_4};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -27,8 +27,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-       Fragment fragment = new Fragment();
-       /* switch (position){
+       try{
+           Fragment fragment = new Fragment();
+        switch (position){
 
             case 0:
                 fragment = RelativeLayout.newInstance("hi","why");
@@ -44,8 +45,14 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 break;
 
         }
-        return fragment;*/
-     return PlaceholderFragment.newInstance(position+1);
+           return fragment;
+       }
+       catch(Exception e){
+
+           System.out.println("crashed here");
+        }
+       return null;
+     //return PlaceholderFragment.newInstance(position+1);
     }
 
     @Nullable
