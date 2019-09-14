@@ -45,8 +45,32 @@
         android:background="@drawable/signupbuttonshape"
         android:backgroundTint="#07B9FF"
         android:text="@string/signup"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#FEFEFF"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:background="@drawable/signupbuttonshape"
+        android:backgroundTint="#FDD835"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Exit"
+        android:textColor="#FEFEFF"
+        android:textSize="18sp"
+        android:onClick="clickexit"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.871" />
