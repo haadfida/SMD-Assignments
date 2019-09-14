@@ -21,8 +21,7 @@
         android:layout_height="221dp"
         android:layout_alignParentTop="true"
 
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="351dp"
+        android:layout_marginTop="400dp"
         android:layout_marginBottom="50dp"
         android:padding="4dp"
         app:alignmentMode="alignBounds"
@@ -51,10 +50,11 @@
             android:gravity="center"
 
             android:src="@mipmap/musk2"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_gravity="fill_horizontal"
 
-            />
+            app:layout_gravity="fill_horizontal"
+            app:layout_row="0" />
 
         <ImageView
             android:id="@+id/imageView12"
@@ -116,8 +116,8 @@
         android:layout_height="96dp"
         android:layout_alignBottom="@+id/nav_view"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="277dp"
-        android:layout_marginBottom="543dp"
+        android:layout_marginEnd="301dp"
+        android:layout_marginBottom="503dp"
         android:src="@mipmap/muskpfp"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp" />
@@ -127,21 +127,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="-623dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="8dp"
+
+
         android:background="?android:attr/windowBackground"
         app:menu="@menu/bottom_nav_menu" />
 
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="6dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
 
     <TextView
         android:id="@+id/simpleTextView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Elon Musk"
+        android:text="@string/relative_elon_musk"
         android:textColor="#000000"
         android:textSize="25sp"
         android:fontFamily="@font/roboto_bold"/>
@@ -178,7 +185,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:layout_marginLeft="170dp"
-        android:text="posts"
+        android:text="@string/relative_posts"
         android:textSize="14sp"
         android:fontFamily="@font/roboto_bold"/>
 
@@ -189,7 +196,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginLeft="240dp"
         android:textColor="#000000"
-        android:text="28.7 M"
+        android:text="@string/relative_28_7_m"
         android:textSize="20sp"
         android:fontFamily="@font/roboto_bold"/>
 
@@ -199,7 +206,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="120dp"
         android:layout_marginLeft="240dp"
-        android:text="followers"
+        android:text="@string/relative_followers"
         android:textSize="14sp"
         android:fontFamily="@font/roboto_bold"/>
 
@@ -210,7 +217,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginLeft="340dp"
         android:textColor="#000000"
-        android:text="75"
+        android:text="@string/relative_75"
         android:textSize="20sp"
         android:fontFamily="@font/roboto_bold"/>
 
@@ -229,7 +236,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="220dp"
-        android:text="Tesla, SpaceX, tunnels(Yes tunnels) and Open AI"
+        android:text="@string/relative_description"
         android:ems="10"
         android:textStyle="bold"
         android:layout_marginLeft="40dp"
@@ -243,7 +250,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:text="Elon Musk"
+        android:text="@string/relative_name"
         android:layout_marginTop="190dp"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -255,7 +262,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:text="Tesla.com"
+        android:text="@string/relative_site"
         android:layout_marginTop="300dp"
         android:textColor="#0087FF"
         android:textSize="14sp"
