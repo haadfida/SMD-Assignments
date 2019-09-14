@@ -20,5 +20,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="relative_elon_musk">Elon Musk</string>
+    <string name="relative_posts">posts</string>
+    <string name="relative_28_7_m">28.7 M</string>
+    <string name="relative_followers">followers</string>
+    <string name="relative_75">75</string>
+    <string name="relative_description">Tesla, SpaceX, tunnels(Yes tunnels) and Open AI</string>
+    <string name="relative_name">Elon Musk</string>
+    <string name="relative_site">Tesla.com</string>
 
 </resources>
