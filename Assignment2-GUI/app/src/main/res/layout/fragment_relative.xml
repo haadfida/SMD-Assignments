@@ -18,12 +18,12 @@
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
-        android:layout_height="221dp"
+        android:layout_height="@dimen/relative_grid_height"
         android:layout_alignParentTop="true"
 
-        android:layout_marginTop="400dp"
-        android:layout_marginBottom="50dp"
-        android:padding="4dp"
+        android:layout_marginTop="@dimen/relative_grid_mtop"
+        android:layout_marginBottom="@dimen/relative_grid_mbot"
+        android:padding="@dimen/relative_grid_padding"
         app:alignmentMode="alignBounds"
         app:columnCount="3"
         app:rowOrderPreserved="false"
@@ -31,8 +31,8 @@
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/relative_image_width"
+            android:layout_height="@dimen/relative_image_height"
 
             android:gravity="center"
 
@@ -40,12 +40,12 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal"
 
-            />
+            android:contentDescription="@string/relative_todo" />
 
         <ImageView
             android:id="@+id/imageView11"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/relative_image_width"
+            android:layout_height="@dimen/relative_image_height"
 
             android:gravity="center"
 
@@ -54,12 +54,13 @@
             app:layout_columnWeight="1"
 
             app:layout_gravity="fill_horizontal"
-            app:layout_row="0" />
+            app:layout_row="0"
+            android:contentDescription="@string/relative_todo" />
 
         <ImageView
             android:id="@+id/imageView12"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/relative_image_width"
+            android:layout_height="@dimen/relative_image_height"
 
             android:gravity="center"
 
@@ -67,12 +68,12 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal"
 
-            />
+            android:contentDescription="@string/relative_todo" />
 
         <ImageView
             android:id="@+id/imageView13"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/relative_image_width"
+            android:layout_height="@dimen/relative_image_height"
 
             android:gravity="center"
 
@@ -80,12 +81,12 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal"
 
-            />
+            android:contentDescription="@string/relative_todo" />
 
         <ImageView
             android:id="@+id/imageView14"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/relative_image_width"
+            android:layout_height="@dimen/relative_image_height"
 
             android:gravity="center"
 
@@ -93,12 +94,12 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal"
 
-            />
+            android:contentDescription="@string/relative_todo" />
 
         <ImageView
             android:id="@+id/imageView15"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/relative_image_width"
+            android:layout_height="@dimen/relative_image_height"
 
             android:gravity="center"
 
@@ -106,21 +107,21 @@
             app:layout_columnWeight="1"
             app:layout_gravity="fill_horizontal"
 
-            />
+            android:contentDescription="@string/relative_todo" />
 
     </androidx.gridlayout.widget.GridLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageView19"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
+        android:layout_width="@dimen/relative_pfp_width"
+        android:layout_height="@dimen/relative_pfp_height"
         android:layout_alignBottom="@+id/nav_view"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="301dp"
-        android:layout_marginBottom="503dp"
+        android:layout_marginEnd="@dimen/relative_pfp_mend"
+        android:layout_marginBottom="@dimen/relative_pfp_mbot"
         android:src="@mipmap/muskpfp"
-        app:civ_border_color="#FF000000"
-        app:civ_border_width="2dp" />
+        app:civ_border_color="@color/relative_pfp_border_color"
+        app:civ_border_width="@dimen/relative_pfp_border_width" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -138,8 +139,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="350dp"
-        android:layout_marginBottom="6dp"
+        android:layout_marginTop="@dimen/relative_navbar1_mtop"
+        android:layout_marginBottom="@dimen/relative_navbar2_mbot"
         android:background="?android:attr/windowBackground"
         app:menu="@menu/bottom_nav_menu" />
 
@@ -149,86 +150,87 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/relative_elon_musk"
-        android:textColor="#000000"
-        android:textSize="25sp"
+        android:textColor="@color/relative_black"
+        android:textSize="@dimen/relative_emusk_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <View
         android:layout_width="wrap_content"
-        android:layout_height="2dp"
+        android:layout_height="@dimen/relative_view_height"
         android:layout_alignTop="@+id/simpleTextView"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:background="#C4C4C4" />
+        android:layout_marginTop="@dimen/relative_view_mtop"
+        android:background="@color/relative_view_bgcolor" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="58dp"
-        android:layout_height="41dp"
-        android:layout_marginLeft="360dp"
-        android:src="@mipmap/settings" />
+        android:layout_width="@dimen/relative_image2_width"
+        android:layout_height="@dimen/relative_image2_height"
+        android:layout_marginStart="@dimen/relative_image2_mstart"
+        android:src="@mipmap/settings"
+        android:contentDescription="@string/relative_todo" />
 
     <TextView
     android:id="@+id/textView2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="100dp"
-    android:layout_marginLeft="160dp"
-    android:textColor="#000000"
-    android:text="3341"
-    android:textSize="20sp"
+    android:layout_marginTop="@dimen/relative_tview2_mtop"
+    android:layout_marginStart="@dimen/relative_tview2_mstart"
+    android:textColor="@color/relative_black"
+    android:text="@string/relative_3341"
+    android:textSize="@dimen/relative_tview2_textsize"
     android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginLeft="170dp"
+        android:layout_marginTop="@dimen/relative_posts_mtop"
+        android:layout_marginStart="@dimen/relative_posts_mstart"
         android:text="@string/relative_posts"
-        android:textSize="14sp"
+        android:textSize="@dimen/relative_posts_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="240dp"
-        android:textColor="#000000"
+        android:layout_marginTop="@dimen/relative_28_7_mtop"
+        android:layout_marginStart="@dimen/relative_28_7_mstart"
+        android:textColor="@color/relative_black"
         android:text="@string/relative_28_7_m"
-        android:textSize="20sp"
+        android:textSize="@dimen/relative_28_7_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginLeft="240dp"
+        android:layout_marginTop="@dimen/relative_followers_mtop"
+        android:layout_marginStart="@dimen/relative_followers_mstart"
         android:text="@string/relative_followers"
-        android:textSize="14sp"
+        android:textSize="@dimen/relative_followers_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="340dp"
-        android:textColor="#000000"
+        android:layout_marginTop="@dimen/relative_75_mtop"
+        android:layout_marginStart="@dimen/relative_75_mstart"
+        android:textColor="@color/relative_black"
         android:text="@string/relative_75"
-        android:textSize="20sp"
+        android:textSize="@dimen/relative_75_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginLeft="325dp"
-        android:text="following"
-        android:textSize="14sp"
+        android:layout_marginTop="@dimen/relative_following_mtop"
+        android:layout_marginStart="@dimen/relative_following_mstart"
+        android:text="@string/relative_following"
+        android:textSize="@dimen/relative_following_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
@@ -239,33 +241,33 @@
         android:text="@string/relative_description"
         android:ems="10"
         android:textStyle="bold"
-        android:layout_marginLeft="40dp"
-        android:textColor="#000000"
+        android:layout_marginStart="@dimen/relative_multitext_mstart"
+        android:textColor="@color/relative_black"
         android:gravity="start|top"
-        android:textSize="20sp"
+        android:textSize="@dimen/relative_multitext_size"
         android:inputType="textMultiLine" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="@dimen/relative_emusk2_mstart"
         android:text="@string/relative_name"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="@dimen/relative_emusk2_mtop"
         android:textStyle="bold"
-        android:textColor="#000000"
-        android:textSize="20sp"
+        android:textColor="@color/relative_black"
+        android:textSize="@dimen/relative_emusk2_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="@dimen/relative_tcom_mstart"
         android:text="@string/relative_site"
-        android:layout_marginTop="300dp"
-        android:textColor="#0087FF"
-        android:textSize="14sp"
+        android:layout_marginTop="@dimen/relative_tcom_mtop"
+        android:textColor="@color/relative_tcom_blue"
+        android:textSize="@dimen/relative_tcom_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
 

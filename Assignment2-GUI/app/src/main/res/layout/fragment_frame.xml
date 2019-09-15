@@ -12,51 +12,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@mipmap/background" />
+        android:src="@mipmap/background"
+        android:contentDescription="@string/frame_todo" />
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/frame_logo_width"
+        android:layout_height="@dimen/frame_logo_height"
+        android:layout_marginTop="@dimen/frame_logo_mtop"
         android:layout_gravity="center_horizontal"
-        app:srcCompat="@mipmap/constraintlogo" />
+        app:srcCompat="@mipmap/constraintlogo"
+        android:contentDescription="@string/frame_todo" />
     <TextView
         android:id="@+id/tvMindorks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textSize="24sp"
+        android:textColor="@color/frame_black"
+        android:textSize="@dimen/frame_logo_text_size"
         android:textStyle="bold"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="@dimen/frame_logo_text_mtop"
         android:layout_gravity="center_horizontal"
-        android:text="Blink: Better Affiliate links" />
+        android:text="@string/frame_blink_better_affiliate_links" />
 
     <TextView
         android:id="@+id/descTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="@dimen/frame_prev_mtop"
         android:background="@android:color/holo_blue_light"
-        android:padding="10dp"
-        android:text="Preview"
+        android:padding="@dimen/frame_prev_padding"
+        android:text="@string/frame_preview"
         android:textColor="@android:color/white"
-        android:textSize="22sp" />
+        android:textSize="@dimen/frame_prev_textsize" />
 
     <ImageView
         android:id="@+id/previewimage"
-        android:layout_width="400dp"
-        android:layout_height="330dp"
-        android:layout_marginTop="200dp"
-        app:srcCompat="@mipmap/blink" />
+        android:layout_width="@dimen/frame_previmg_width"
+        android:layout_height="@dimen/frame_previmg_height"
+        android:layout_marginTop="@dimen/frame_previmg_mtop"
+        app:srcCompat="@mipmap/blink"
+        android:contentDescription="@string/frame_todo" />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
 
 
         android:background="?android:attr/windowBackground"
@@ -64,39 +66,39 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="635dp"
+        android:layout_marginTop="@dimen/frame_navbar_mtop"
         app:layout_constraintVertical_bias="0.989"
         app:menu="@menu/bottom_nav_menu" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="84dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="@dimen/frame_button_width"
+        android:layout_height="@dimen/frame_button_height"
+        android:layout_marginBottom="@dimen/frame_button_mbot"
         android:background="@drawable/signupbuttonshape"
-        android:backgroundTint="#4D77FF"
+        android:backgroundTint="@color/frame_button_bgtint"
         android:fontFamily="@font/roboto_bold"
-        android:text="Blink"
-        android:textColor="#FEFEFF"
-        android:textSize="18sp"
-        android:translationZ="2dp"
+        android:text="@string/frame_blink"
+        android:textColor="@color/white"
+        android:textSize="@dimen/frame_button_size"
+        android:translationZ="@dimen/frame_button_translation"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="565dp" />
+        android:layout_marginTop="@dimen/frame_button_mtop" />
     <Button
         android:id="@+id/button2"
-        android:layout_width="84dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="@dimen/frame_button_width"
+        android:layout_height="@dimen/frame_button_height"
+        android:layout_marginBottom="@dimen/frame_button2_mbot"
         android:background="@drawable/signupbuttonshape"
-        android:backgroundTint="#4D77FF"
+        android:backgroundTint="@color/frame_button_bgtint"
         android:fontFamily="@font/roboto_bold"
-        android:text="Blink"
-        android:textColor="#FEFEFF"
-        android:textSize="18sp"
-        android:layout_marginLeft="10dp"
+        android:text="@string/frame_blink"
+        android:textColor="@color/white"
+        android:textSize="@dimen/frame_button_size"
+        android:layout_marginStart="@dimen/frame_button2_start"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="570dp" />
+        android:layout_marginTop="@dimen/frame_button2_mtop" />
 
 </FrameLayout>
