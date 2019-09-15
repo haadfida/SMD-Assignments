@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#015DF1</color>
+    <color name="colorPrimaryDark">#003C8B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="grayLight">#fafafa</color>
     <color name="startblue">#09c6df</color>
     <color name="endblue">#0bcce6</color>
+    <color name="darkblack">#141414</color>
+    <color name="skyblue">#07B9FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FDD835</color>
+    <color name="constraint_gray">#74141414</color>
+    <color name="constraint_black">#141414</color>
+    <color name="constraint_button_bgtint">#1B222222</color>
+    <color name="constraint_button_color">#0087FF</color>
+    <color name="constraint_navyblue">#1E88E5</color>
+    <color name="constraint_button_blue">#4D77FF</color>
+    <color name="relative_pfp_border_color">#FF000000</color>
+    <color name="relative_black">#000000</color>
+    <color name="relative_view_bgcolor">#C4C4C4</color>
+    <color name="relative_tcom_blue">#0087FF</color>
+    <color name="frame_black">#000000</color>
+    <color name="frame_button_bgtint">#4D77FF</color>
+    <color name="buttonstyle_color">#4bb6ef</color>
+    <color name="ic_dashboard_black_24dp_color">#FF000000</color>
+    <color name="ic_home_black_24dp_color">#FF000000</color>
+    <color name="ic_launder_bg_fillcolor">#008577</color>
+    <color name="ic_launcher_background_fillcolor">#00000000</color>
+    <color name="ic_launcher_background_strokecolor">#33FFFFFF</color>
+    <color name="ic_launder_foreground_strokecolor">#00000000</color>
+    <color name="ic_launcher_foreground_fillcolor">#FFFFFF</color>
+    <color name="ic_launcher_foreground_strokecolor">#00000000</color>
+    <color name="ic_notifications_black_24dp_color">#FF000000</color>
+    <color name="signupbuttonshape_yellow">#FFFF00</color>
+
 </resources>

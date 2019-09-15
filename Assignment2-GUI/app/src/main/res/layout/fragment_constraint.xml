@@ -20,52 +20,60 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="360dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/constraint_4_margin_start"
+            android:layout_marginTop="@dimen/constraint_4_margin_top"
             android:fontFamily="@font/roboto_bold"
-            android:text="4+"
-            android:textColor="#74141414"
-            android:textSize="24sp" />
+            android:text="@string/constraint_4"
+            android:textColor="@color/constraint_gray"
+            android:textSize="@dimen/constraint_4_size" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="360dp"
+            android:layout_marginStart="360dp"
             android:layout_marginTop="45dp"
-            android:text="Age" />
+            android:text="@string/constraint_age" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="30dp"
-            android:text="8 ratings" />
+            android:text="@string/constraint_8_ratings" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginStart="@dimen/constraint_4_9_mstart"
+            android:layout_marginTop="@dimen/constraint_4_9_mtop"
             android:fontFamily="@font/roboto_bold"
-            android:text="4.9"
-            android:textColor="#74141414"
-            android:textSize="24sp" />
+            android:text="@string/constraint_4_9"
+            android:textColor="@color/constraint_gray"
+            android:textSize="@dimen/constraint_4_9_size" />
 
         <RatingBar
             android:id="@+id/ratingBar"
-            android:layout_width="250dp"
-            android:layout_height="71dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="10dp"
+            android:layout_width="@dimen/constraint_rbar_width"
+            android:layout_height="@dimen/constraint_rbar_height"
+            android:layout_marginStart="@dimen/constraint_rbar_mstart"
+            android:layout_marginTop="@dimen/constraint_rbar_mtop"
             android:isIndicator="true"
             android:max="5"
             android:scaleX=".5"
             android:scaleY=".5"
-            android:transformPivotX="0dp"
-            android:transformPivotY="0dp" />
+            android:transformPivotX="@dimen/constraint_rbar_transform"
+            android:transformPivotY="@dimen/constraint_rbar_transform" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/constraint_margin"
+            android:layout_marginEnd="@dimen/constraint_margin"
+            android:background="?android:attr/listDivider" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -83,10 +91,10 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="110dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginStart="@dimen/constraint_prod_mstart"
+            android:layout_marginTop="@dimen/constraint_prod_mtop"
             android:fontFamily="@font/roboto_bold"
-            android:text="Productivity"
+            android:text="@string/constraint_productivity"
 
             />
 
@@ -94,12 +102,12 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="110dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="@dimen/constraint_afillinkingpack_mstart"
+            android:layout_marginTop="@dimen/constraint_afillinkingpack_mtop"
             android:fontFamily="@font/roboto_bold"
-            android:text="Affiliate linking pack"
+            android:text="@string/constraint_affiliate_linking_pack"
             android:textColor="#141414"
-            android:textSize="20sp"
+            android:textSize="@dimen/constraint_afillinkingpack_textsize"
 
             />
 
@@ -107,35 +115,44 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="30dp"
-            android:src="@mipmap/buttonlogo" />
+            android:layout_marginStart="@dimen/constraint_image3_mstart"
+            android:layout_marginTop="@dimen/constraint_image3_mtop"
+            android:src="@mipmap/buttonlogo"
+            android:contentDescription="@string/constraint_todo" />
 
         <Button
             android:id="@+id/signupbutton"
-            android:layout_width="84dp"
-            android:layout_height="38dp"
-            android:layout_marginLeft="320dp"
-            android:layout_marginTop="50dp"
+            android:layout_width="@dimen/constraint_button_width"
+            android:layout_height="@dimen/constraint_button_height"
+            android:layout_marginStart="@dimen/constraint_button_mstart"
+            android:layout_marginTop="@dimen/constraint_button_mtop"
             android:background="@drawable/signupbuttonshape"
-            android:backgroundTint="#1B222222"
+            android:backgroundTint="@color/constraint_button_bgtint"
             android:fontFamily="@font/roboto_bold"
-            android:text="$7.99"
-            android:textColor="#0087FF"
-            android:textSize="18sp"
+            android:text="@string/constraint_7_99"
+            android:textColor="@color/constraint_button_color"
+            android:textSize="@dimen/constraint_button_textsize"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
-            android:layout_height="133dp"
-            android:layout_marginStart="15dp"
+            android:layout_height="@dimen/constraint_alsoincl_height"
+            android:layout_marginStart="@dimen/constraint_alsoincl_mstart"
             android:fontFamily="@font/roboto_bold"
-            android:text="Also included in"
+            android:text="@string/constraint_also_included_in"
 
-            android:textColor="#141414"
-            android:textSize="24sp"
+            android:textColor="@color/constraint_black"
+            android:textSize="@dimen/constraint_alsoincl_textsize"
             android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/constraint_margin"
+            android:layout_marginEnd="@dimen/constraint_margin"
+            android:background="?android:attr/listDivider" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -151,14 +168,14 @@
 
         <TextView
         android:id="@+id/textView6"
-        android:layout_width="173dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:fontFamily="@font/roboto_bold"
-        android:text="What's new"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="20dp"
-        android:textColor="#141414"
-        android:textSize="24sp"
+        android:text="@string/constraint_what_s_new"
+        android:layout_marginStart="@dimen/constraint_whatsnew_mstart"
+        android:layout_marginTop="@dimen/constraint_whatsnew_mtop"
+        android:textColor="@color/constraint_black"
+        android:textSize="@dimen/constraint_whatsnew_testsize"
         android:textStyle="bold" />
 
         <TextView
@@ -166,75 +183,83 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="Version History"
-            android:layout_marginLeft="300dp"
-            android:layout_marginTop="20dp"
-            android:textColor="#1E88E5"
-            android:textSize="14sp" />
+            android:text="@string/constraint_version_history"
+            android:layout_marginStart="@dimen/constraint_versionhistory_mstart"
+            android:layout_marginTop="@dimen/constraint_versionhistory_mtop"
+            android:textColor="@color/constraint_navyblue"
+            android:textSize="@dimen/constraint_versionhistory_textsize" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="Version 2.7"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="50dp"
-            android:textSize="14sp" />
+            android:text="@string/constraint_version_2_7"
+            android:layout_marginStart="@dimen/constraint_version_2_7_mstart"
+            android:layout_marginTop="@dimen/constraint_version_2_7_mtop"
+            android:textSize="@dimen/constraint_version_2_7_textsize" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="3mo ago"
-            android:layout_marginLeft="340dp"
-            android:layout_marginTop="50dp"
-            android:textSize="14sp" />
+            android:text="@string/constraint_3mo_ago"
+            android:layout_marginStart="@dimen/constraint_3mo_mstart"
+            android:layout_marginTop="@dimen/constraint_3mo_mtop"
+            android:textSize="@dimen/constraint_3mo_textsize" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="- Improved Apple music linking support"
-            android:textColor="#141414"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="70dp"
-            android:textSize="14sp" />
+            android:text="@string/constraint_improved_apple_music_linking_support"
+            android:textColor="@color/constraint_black"
+            android:layout_marginStart="@dimen/constraint_improved_mstart"
+            android:layout_marginTop="@dimen/constraint_improved_mtop"
+            android:textSize="@dimen/constraint_improved_textsize" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="- Improved user interface for iPhone X"
-            android:textColor="#141414"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="90dp"
-            android:textSize="14sp" />
+            android:text="@string/constraint_improved_user_interface_for_iphone_x"
+            android:textColor="@color/constraint_black"
+            android:layout_marginStart="@dimen/constraint_improvedinter_mstart"
+            android:layout_marginTop="@dimen/constraint_improvedinter_mtop"
+            android:textSize="@dimen/constraint_improvedinter_textsize" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="- Better support for converting short URLs"
-            android:textColor="#141414"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="110dp"
-            android:textSize="14sp" />
+            android:text="@string/constraint_better_support_for_converting_short_urls"
+            android:textColor="@color/constraint_black"
+            android:layout_marginStart="@dimen/constraint_bettersupp_mstart"
+            android:layout_marginTop="@dimen/constraint_bettersupp_mtop"
+            android:textSize="@dimen/constraint_bettersupp_textsize" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/roboto_bold"
-            android:text="more"
-            android:layout_marginLeft="340dp"
-            android:layout_marginTop="110dp"
-            android:textColor="#1E88E5"
-            android:textSize="14sp" />
+            android:text="@string/constraint_more"
+            android:layout_marginStart="@dimen/constraint_more_mstart"
+            android:layout_marginTop="@dimen/constraint_more_mtop"
+            android:textColor="@color/constraint_navyblue"
+            android:textSize="@dimen/constraint_more_textsize" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/constraint_margin"
+            android:layout_marginEnd="@dimen/constraint_margin"
+            android:background="?android:attr/listDivider" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -252,19 +277,28 @@
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/constraint_prev_mstart"
+            android:layout_marginTop="@dimen/constraint_prev_mtop"
             android:fontFamily="@font/roboto_bold"
-            android:text="Preview"
-            android:textColor="#141414"
-            android:textSize="24sp"
+            android:text="@string/constraint_preview"
+            android:textColor="@color/constraint_black"
+            android:textSize="@dimen/constraint_prev_textsize"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/preview" />
+            android:src="@mipmap/preview"
+            android:contentDescription="@string/constraint_todo" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/constraint_margin"
+            android:layout_marginEnd="@dimen/constraint_margin"
+            android:background="?android:attr/listDivider" />
     </androidx.cardview.widget.CardView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -283,26 +317,27 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="235dp"
-        android:layout_height="93dp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/constraint_logo_height"
         android:src="@mipmap/constraintlogo"
         android:layout_gravity="center_horizontal"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/constraint_todo" />
 
     <Button
         android:id="@+id/updatebutton"
         android:layout_width="84dp"
-        android:layout_height="38dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="@dimen/constraint_button_height"
+        android:layout_marginBottom="@dimen/constraint_button_mbottom"
         android:background="@drawable/signupbuttonshape"
-        android:backgroundTint="#4D77FF"
+        android:backgroundTint="@color/constraint_button_blue"
         android:fontFamily="@font/roboto_bold"
-        android:text="Update"
-        android:textColor="#FEFEFF"
-        android:textSize="18sp"
+        android:text="@string/constraint_update"
+        android:textColor="@color/white"
+        android:textSize="@dimen/constraint_button_textsize"
 
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
@@ -313,12 +348,12 @@
         android:layout_width="148dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginLeft="15dp"
+        android:layout_marginStart="@dimen/constraint_tmulti_mstart"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="Blink: Better Affiliate links"
-        android:textColor="#141414"
-        android:textSize="24sp"
+        android:text="@string/constraint_blink_better_affiliate_links"
+        android:textColor="@color/constraint_black"
+        android:textSize="@dimen/constraint_tmulti_textsize"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -331,7 +366,7 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Squibner LLC"
+        android:text="@string/constraint_squibner_llc"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"

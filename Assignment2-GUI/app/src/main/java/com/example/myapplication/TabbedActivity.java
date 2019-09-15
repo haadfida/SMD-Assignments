@@ -19,6 +19,14 @@ import com.example.myapplication.ui.main.SectionsPagerAdapter;
 
 public class TabbedActivity extends AppCompatActivity {
 
+    private TabLayout tabLayout;
+
+    private int[] tabIcons = {
+            R.drawable.ic_account_circle_black_24dp,
+            R.drawable.ic_announcement_black_24dp,
+            R.drawable.ic_beenhere_black_24dp,
+            R.drawable.ic_person_outline_black_24dp
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,19 +37,14 @@ public class TabbedActivity extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        setupTabIcons();
     }
     @Override
     public boolean onSupportNavigateUp() {
@@ -49,7 +52,12 @@ public class TabbedActivity extends AppCompatActivity {
         return true;
     }
 
-
+    private void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
+    }
 
 
 

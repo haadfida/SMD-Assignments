@@ -10,44 +10,46 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="405dp">
+        android:layout_height="@dimen/linear_relative_height">
         <LinearLayout
             android:background="@drawable/gradientbackground"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="@dimen/linear_height1"
             android:orientation="vertical">
             <ImageView
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="@dimen/linear_pfp_mtop"
                 android:layout_gravity="center_horizontal"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:src="@mipmap/pfp"/>
+                android:layout_width="@dimen/linear_pfp_width"
+                android:layout_height="@dimen/linear_pfp_height"
+                android:src="@mipmap/pfp"
+                android:contentDescription="@string/linear_todo" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Haad Fida"
-                android:textColor="#fff"
-                android:textSize="21sp"
+                android:layout_marginTop="@dimen/linear_name_mtop"
+                android:text="@string/linear_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/linear_name_textsize"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="357dp"
-            android:layout_height="115dp"
+            android:layout_width="@dimen/linear_cv_width"
+            android:layout_height="@dimen/linear_cv_height"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="275dp">
+            android:layout_marginTop="@dimen/linear_cv_mtop">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:baselineAligned="false">
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/linear_linear_width"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
@@ -56,22 +58,22 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Photos"
-                        android:textSize="20sp" />
+                        android:text="@string/linear_photos"
+                        android:textSize="@dimen/linear_photos_textsize" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:text="125"
+                        android:paddingTop="@dimen/linear_photostext_ptop"
+                        android:text="@string/linear_125"
                         android:textColor="@color/startblue"
-                        android:textSize="20sp"
+                        android:textSize="@dimen/linear_photostext_textsixe"
                         android:textStyle="bold" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/linear_linear_width"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
@@ -80,22 +82,22 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Followers"
-                        android:textSize="20sp" />
+                        android:text="@string/linear_followers"
+                        android:textSize="@dimen/linear_photos_textsize" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:text="1205"
+                        android:text="@string/linear_1205"
+                        android:paddingTop="@dimen/linear_photostext_ptop"
                         android:textColor="@color/startblue"
-                        android:textSize="20sp"
+                        android:textSize="@dimen/linear_photostext_textsixe"
                         android:textStyle="bold" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/linear_linear_width"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
@@ -104,16 +106,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Following"
-                        android:textSize="20sp" />
+                        android:text="@string/linear_following"
+                        android:textSize="@dimen/linear_photos_textsize" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:text="360"
+                        android:paddingTop="@dimen/linear_photostext_ptop"
                         android:textColor="@color/startblue"
-                        android:textSize="20sp"
+                        android:textSize="@dimen/linear_photostext_textsixe"
+                        android:text="@string/linear_360"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -123,57 +125,59 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_width="360dp"
+        android:layout_width="@dimen/linear_linear2_width"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="@dimen/linear_linear2_mtop">
         <LinearLayout
             android:orientation="horizontal"
-            android:paddingLeft="25dp"
+            android:paddingStart="@dimen/linear_linear2_pstart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:src="@drawable/ic_email_black_24dp"/>
+                android:layout_width="@dimen/linear_linear2_img_length"
+                android:layout_height="@dimen/linear_linear2_img_length"
+                android:src="@drawable/ic_email_black_24dp"
+                android:contentDescription="@string/linear_todo" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
-                android:text="Haad@gmail.com"
+                android:paddingStart="@dimen/linear_linear2_img1text_length"
+                android:text="@string/linear_gmail_com"
                 android:textStyle="bold" />
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/linear_linear3_mtop"
             android:orientation="horizontal"
-            android:paddingLeft="25dp"
+            android:paddingStart="@dimen/linear_linear3_padstart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:src="@drawable/ic_phone_android_black_24dp"/>
+                android:layout_width="@dimen/linear_linear2_img_length"
+                android:layout_height="@dimen/linear_linear2_img_length"
+                android:src="@drawable/ic_phone_android_black_24dp"
+                android:contentDescription="@string/linear_todo" />
             <TextView
                 android:textStyle="bold"
 
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:text="+266 225 225"/>
+                android:paddingLeft="@dimen/linear_linear2_img_length"
+                android:text="@string/linear_266_225_225"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/linear_linear3_mtop"
             android:orientation="horizontal"
-            android:paddingLeft="25dp"
+            android:paddingStart="@dimen/linear_linear3_padstart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="@dimen/linear_linear2_img_length"
+                android:layout_height="@dimen/linear_linear2_img_length"
                 android:src="@drawable/ic_group_add_black_24dp"/>
             <TextView
                 android:textStyle="bold"
@@ -181,18 +185,18 @@
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:text="Add to group"/>
+                android:paddingStart="@dimen/linear_linear3_padstart"
+                android:text="@string/linear_add_to_group"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/linear_linear3_mtop"
             android:orientation="horizontal"
-            android:paddingLeft="25dp"
+            android:paddingStart="@dimen/linear_linear3_padstart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-                android:layout_width="36dp"
-                android:layout_height="36dp"
+                android:layout_width="@dimen/linear_linear2_img_length"
+                android:layout_height="@dimen/linear_linear2_img_length"
                 android:src="@drawable/ic_forum_black_24dp"/>
             <TextView
                 android:textStyle="bold"
@@ -200,8 +204,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:text="Show all comments"/>
+                android:paddingStart="@dimen/linear_linear2_img1text_length"
+                android:text="@string/linear_show_all_comments"/>
         </LinearLayout>
     </LinearLayout>
 
