@@ -233,19 +233,22 @@
         android:textSize="@dimen/relative_following_textsize"
         android:fontFamily="@font/roboto_bold"/>
 
-    <TextView
+    <EditText
         android:id="@+id/testView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="220dp"
         android:text="@string/relative_description"
         android:ems="10"
+        android:hint="@string/relative_multitext_description_hint"
         android:textStyle="bold"
         android:layout_marginStart="@dimen/relative_multitext_mstart"
         android:textColor="@color/relative_black"
         android:gravity="start|top"
         android:textSize="@dimen/relative_multitext_size"
-        android:inputType="textMultiLine" />
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/textView9"
