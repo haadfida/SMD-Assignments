@@ -343,7 +343,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/editText"
         android:layout_width="148dp"
         android:layout_height="wrap_content"
@@ -355,12 +355,15 @@
         android:textColor="@color/constraint_black"
         android:textSize="@dimen/constraint_tmulti_textsize"
         android:textStyle="bold"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.301" />
+        android:hint="@string/constraint_multitext_headline_hint"
+        app:layout_constraintVertical_bias="0.301"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/textView17"
