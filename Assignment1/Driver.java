@@ -47,10 +47,10 @@ public class Driver {
 
         System.out.println();
         Player player=new Player(19,"Haad","Pakistan");
-        Player.Teenager teen = new Player.Teenager(player, "Lahore Kalandar");
+        Player.Teenager teen = new Player.Teenager( "Lahore Kalandar");
 
 
-
+    
 
     }
 

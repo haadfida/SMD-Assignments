@@ -83,8 +83,8 @@
     <dimen name="relative_image_height">100dp</dimen>
     <dimen name="relative_pfp_width">96dp</dimen>
     <dimen name="relative_pfp_height">96dp</dimen>
-    <dimen name="relative_pfp_mend">301dp</dimen>
-    <dimen name="relative_pfp_mbot">503dp</dimen>
+    <dimen name="relative_pfp_mend">275dp</dimen>
+    <dimen name="relative_pfp_mbot">495dp</dimen>
     <dimen name="relative_pfp_border_width">2dp</dimen>
     <dimen name="relative_navbar1_mtop">350dp</dimen>
     <dimen name="relative_navbar2_mbot">6dp</dimen>

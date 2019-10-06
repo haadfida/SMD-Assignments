@@ -38,13 +38,13 @@ public class Player {
         private void showClub(){
             System.out.println("The player belongs to " + club);
         }
-        Teenager(Player player, String club)
+        Teenager(String club)
         {
             try
             {
-                player.showPlanet();
-                player.showName();
-                player.showNationality();
+                showPlanet();
+                showName();
+                showNationality();
                 this.club = club;
                 this.showClub();
             }

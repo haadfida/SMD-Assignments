@@ -65,6 +65,11 @@ public class Animator implements TreeAnimator, BirdAnimator ,SkyAnimator {
     }
 
     @Override
+    public void animateTrees(int x) {
+
+    }
+
+    @Override
     public void animateSky() {
         try{
             List<String> Sky = new ArrayList<String>();
