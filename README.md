@@ -1,3 +1,3 @@
- SMD-Assignments develop branch
+ SMD-Assignments 
 
-SMD CS404 Assignment 2 worked on here.
+SMD CS404 Assignments final version seen here.
