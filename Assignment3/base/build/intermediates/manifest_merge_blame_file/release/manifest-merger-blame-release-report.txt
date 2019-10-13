@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.haad.cv.base"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:5:5-69
+11-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:5:22-66
+12
+13    <application
+13-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:6:5-55:19
+14        android:allowBackup="true"
+14-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:7:9-35
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:9:9-41
+17        android:supportsRtl="true"
+17-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:11:9-40
+19        <activity
+19-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:12:9-51:20
+20            android:name="com.haad.cv.activities.ScrollingActivity"
+20-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:13:13-68
+21            android:label="@string/app_name"
+21-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:14:13-45
+22            android:theme="@style/AppTheme.NoActionBar" >
+22-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:15:13-56
+23            <meta-data
+23-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:16:13-18:64
+24                android:name="default-url"
+24-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:17:17-43
+25                android:value="http://www.resume.com/resume" />
+25-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:18:17-61
+26
+27            <intent-filter>
+27-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:21:17-69
+28-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:23:17-77
+30-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32            <intent-filter android:autoVerify="true" >
+32-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:27:13-37:29
+32-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:27:28-53
+33                <action android:name="android.intent.action.VIEW" />
+33-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:28:17-69
+33-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:28:25-66
+34
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:30:17-76
+35-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:30:27-73
+36                <category android:name="android.intent.category.BROWSABLE" />
+36-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:31:17-78
+36-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:31:27-75
+37
+38                <data
+38-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:33:17-36:54
+39                    android:host="haadfida.github.io"
+39-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:35:21-54
+40                    android:pathPattern="/resume/"
+40-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:36:21-51
+41                    android:scheme="https" />
+41-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:34:21-43
+42            </intent-filter>
+43            <intent-filter>
+43-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:38:13-48:29
+44                <action android:name="android.intent.action.VIEW" />
+44-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:28:17-69
+44-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:30:17-76
+46-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:30:27-73
+47                <category android:name="android.intent.category.BROWSABLE" />
+47-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:31:17-78
+47-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:31:27-75
+48
+49                <data
+49-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:33:17-36:54
+50                    android:host="haadfida.github.io"
+50-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:35:21-54
+51                    android:pathPattern="/resume"
+51-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:36:21-51
+52                    android:scheme="https" />
+52-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:34:21-43
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+56-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:52:9-54:57
+57            android:name="preloaded_fonts"
+57-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:53:13-43
+58            android:resource="@array/preloaded_fonts" />
+58-->/Users/haadfida/Downloads/Personal-Resume-master copy/base/src/main/AndroidManifest.xml:54:13-54
+59    </application>
+60
+61</manifest>

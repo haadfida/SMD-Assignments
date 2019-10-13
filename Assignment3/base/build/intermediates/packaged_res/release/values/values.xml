@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <string-array name="home">
+        <item>Home</item>
+        <item>Profile</item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/nunito</item>
+        <item>@font/nunito_bold</item>
+        <item>@font/nunito_semibold</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+    </array>
+    <color name="averageColor">#F7BC02</color>
+    <color name="backgroundColor">#E5E5E6</color>
+    <color name="blackColor">#2B2B2B</color>
+    <color name="blue1Color">#4687F7</color>
+    <color name="blueColor">#0A6CEB</color>
+    <color name="colorAccent">#07A24E</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="dangerousColor">#FD0606</color>
+    <color name="darkBlueColor">#3555C4</color>
+    <color name="darkGreencolor">#51C369</color>
+    <color name="grayColor">#DBD9D9</color>
+    <color name="green1Color">#149E5B</color>
+    <color name="greenColor">#51C369</color>
+    <color name="ic_launcher_background">#26A69A</color>
+    <color name="pinkColor">#FDEA3B</color>
+    <color name="redColor">#B00020</color>
+    <color name="skyBlueColor">#5AA4FC</color>
+    <color name="warningColor">#F7640E</color>
+    <color name="whiteColor">#FDFDFE</color>
+    <dimen name="app_bar_height">280dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="toolbarTextsize">16sp</dimen>
+    <string name="AboutMe_Title">About Me</string>
+    <string name="Address">Lahore, Pakistan</string>
+    <string name="Cgpa"/>
+    <string name="Github_IdLink">https://github.com/haadfida</string>
+    <string name="Github_ProjectLink">https://github.com/haadfida/Projects/tree/master/LMS</string>
+    <string name="Github_ProjectLink1">https://github.com/haadfida/Projects/tree/master/SMS</string>
+    <string name="Github_ProjectLink2">https://github.com/haadfida/Projects/tree/master/Notepad</string>
+    <string name="Github_UserName">haadfida</string>
+    <string name="Linkedin_IdLink">https://www.linkedin.com/in/haadfida</string>
+    <string name="Linkedin_UserName">haadfida</string>
+    <string name="Metric_degree_title">Metric</string>
+    <string name="Question1">Career Goal</string>
+    <string name="Question2">Ownership</string>
+    <string name="StackOverFlow_UserName">Haad</string>
+    <string name="action_settings">Settings</string>
+    <string name="address_title">Address</string>
+    <string name="answer">I\'m a boy playing on the seashore, seeing the ocean of truth lay all undiscovered before me. I\'m starving for knowledge, always eager to learn and determined to convert information into action. The plan is to be another micro incremental pawn that strives for the betterment of humanity.</string>
+    <string name="answer1">I exhibit perfectionist behaviour. I try to control it and not overthink stuff or I wouldn\'t get anything done. This however doesn\'t mean my work is perfect, I\'m open to constructive criticism.</string>
+    <string name="app_name">Haad\'s CV</string>
+    <string name="certification_courses_title">Publications</string>
+    <string name="college_title">Punjab University College of Information Technology</string>
+    <string name="college_year">(2008 – 2012)</string>
+    <string name="company_name1">Shaukat Khanum</string>
+    <string name="company_name2">National University College of Computer and Emerging Sciences</string>
+    <string name="company_name3">MobilezApp inc</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="degree_title1">IEEE</string>
+    <string name="degree_title2">Degree Title</string>
+    <string name="degree_title3">Degree Title</string>
+    <string name="description">Description</string>
+    <string name="education">Education</string>
+    <string name="email">haad99@gmail.com</string>
+    <string name="email_title">Email</string>
+    <string name="experience_description">"\u2713 LDR Street Lights \n""\u2713 Sustainable Energy"</string>
+    <string name="experience_description1">\u2713 Event Management \n\u2713 Teamwork</string>
+    <string name="experience_description2">\u2713 Java for Blackberry SDK 7.1 \n\u2713 Java for Android\n\u2713 Sencha Touch 2 (HTML5)\n\u2713 SMTP Mail Configurations\n\u2713 CronJobs and Task Schedulers for Auto Execution of the Scripts at a given time.</string>
+    <string name="experience_time1">February 28th 2012</string>
+    <string name="experience_time2">August 2018 - December 2018 (~1 years)</string>
+    <string name="experience_time3">August 2012 - January 2014 (1.6 years)</string>
+    <string name="experience_title">Shaukat Khanum Science Fair participant</string>
+    <string name="experience_title1">ACM Security member</string>
+    <string name="experience_title2">Software Engineer</string>
+    <string name="experience_year1">(year)</string>
+    <string name="experience_year2">Aug 2012 – Jan 2014</string>
+    <string name="github_title">Github</string>
+    <string name="grades">(grades)</string>
+    <string name="grades1">(grades)</string>
+    <string name="grades2">(grades)</string>
+    <string name="graduation_title">Master of Science in CS (MSCS) </string>
+    <string name="hands_on_skills">Skills</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ieee_link">https://ieeexplore.ieee.org/document/7840114</string>
+    <string name="institude_year1">(year)</string>
+    <string name="institute_title">A parametric effort estimation model for mobile apps</string>
+    <string name="institute_title1">Institute Title</string>
+    <string name="institute_title2">Institute Title</string>
+    <string name="institute_year">(2016)</string>
+    <string name="institute_year2">(year)</string>
+    <string name="intermediate_title">Bachelors of Science in IT (BSIT)</string>
+    <string name="linkedin_title">Linkedin</string>
+    <string name="phoneNumber">+923223888884</string>
+    <string name="phone_number_title">Phone Number</string>
+    <string name="professional_links_title">Professional Links</string>
+    <string name="project_description">\u2713 Designed a Library management system from scratch
+        \n\u2713 Made an easy and flexible UI for both the administrator and the user. The issue of concurrent loaning of the same book was handled and fines were given out on late returns.
+    </string>
+    <string name="project_description1">"\u2713 Professor control features added including grading students, marking attendance. \n\u2713 Student features included viewing marks, GPA, attendance, courses registered and registering courses. \n\u2713 Admin features included adding courses, assigning teachers to courses and limiting the maximum number of students in a particular course. \n\u2713 Checks added such that students wouldn't be able to register if seats were full. Student can request to register in a course of his preference and if a seat is freed he is notified.</string>
+    <string name="project_description2">\u2713 Notepad designed for Visual Studio console using linked lists and establishing connections in all four directions \n\u2713 Basic functionalities of a notepad such as read,write and moving with the cursor implemented.</string>
+    <string name="project_title">Library Management System (Java) </string>
+    <string name="project_title1">School Management System (Java) </string>
+    <string name="project_title2">Notepad (C++)</string>
+    <string name="projects_title">Projects</string>
+    <string name="resume_title">Student</string>
+    <string name="school_name">Central Model school</string>
+    <string name="school_year">(2014)</string>
+    <string name="skill_title_1">C++</string>
+    <string name="skill_title_2">C</string>
+    <string name="skill_title_3">Java</string>
+    <string name="skill_title_4">Android</string>
+    <string name="skill_title_5">Python</string>
+    <string name="stackOverFlow_IdLink">https://stackoverflow.com/users/12131035/haad</string>
+    <string name="stack_overflow_title">Stack Overflow</string>
+    <string name="todo">TODO</string>
+    <string name="twitter_title">Twitter</string>
+    <string name="university_title">National University College of Computer and Emerging Sciences</string>
+    <string name="university_year">(2013 – 2016)</string>
+    <string name="user_address">Lahore,Pakistan </string>
+    <string name="user_name">Haad Fida</string>
+    <string name="volunteerwork">Volunteer Work</string>
+    <string name="why_i_did_choose_above_title_0">Why above:</string>
+    <string name="why_i_did_choose_above_title_1">Why did I choose to join this society:</string>
+    <string name="why_i_did_choose_work_1">"\u2713 In Pakistan I noticed street lights staying on at dawn and at times even later. We were facing an energy crisis back then and this was an event that encouraged us to be innovative and come up with ideas to sustain energy. The basic idea was to turn the street lights automatically when the photoelectric sensor received sufficient light when transitioning from night to day."
+
+    </string>
+    <string name="why_i_did_choose_work_2">"\u2713" Joining a society gives the opportunity to develop Networking skills, Not only did I socialize with more people as a consequence, I also learned how to function as a unit and improved the overall experience for everyone attending the events.</string>
+    <string name="why_i_did_choose_work_3">"\u2713" Client based company, so considering the requirements from clients and keeping in point latest technology at that time I used above technology stack. </string>
+    <string name="worked_on2">Worked On:</string>
+    <string name="worked_on3">Worked On:</string>
+    <string name="worked_on_title">Worked On:</string>
+    <string name="year">(2019)</string>
+    <string name="year1">(2019)</string>
+    <string name="year11">(year)</string>
+    <string name="year2">(2019)</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/green1Color</item>
+        <item name="colorPrimaryDark">@color/green1Color</item>
+        <item name="colorAccent">@color/green1Color</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="CustomRatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#009688</item>
+        <item name="colorControlActivated">#009688</item>
+    </style>
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TabLayoutTextSize" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="android:textSize">6sp</item>
+    </style>
+</resources>

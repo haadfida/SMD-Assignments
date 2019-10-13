@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.haad.cv"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-69
+11-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-66
+12
+13    <application
+13-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:4:5-8:43
+14        android:allowBackup="true"
+14-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:5:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-43
+17        android:label="@string/app_name"
+17-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:6:9-41
+18        android:supportsRtl="true"
+18-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:7:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:8:9-40
+20        <activity
+20-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-54:20
+21            android:name="com.haad.cv.activities.ScrollingActivity"
+21-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-68
+22            android:label="@string/app_name"
+22-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-45
+23            android:theme="@style/AppTheme.NoActionBar" >
+23-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-56
+24            <meta-data
+24-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-25:64
+25                android:name="default-url"
+25-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:24:17-43
+26                android:value="http://www.resume.com/resume" />
+26-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-61
+27
+28            <intent-filter>
+28-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-31:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:28:17-69
+29-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:28:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-77
+31-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:30:27-74
+32            </intent-filter>
+33            <intent-filter android:autoVerify="true" >
+33-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-42:29
+33-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:32:28-53
+34                <action android:name="android.intent.action.VIEW" />
+34-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:33:17-69
+34-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:33:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:35:17-76
+36-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:35:27-73
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-78
+37-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:36:27-75
+38
+39                <data
+39-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-41:46
+40                    android:host="haadfida.github.io"
+40-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:39:21-54
+41                    android:pathPattern="/resume/"
+41-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:40:21-51
+42                    android:scheme="https" />
+42-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:41:21-43
+43            </intent-filter>
+44            <intent-filter>
+44-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:43:13-53:29
+45                <action android:name="android.intent.action.VIEW" />
+45-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:33:17-69
+45-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:33:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:35:17-76
+47-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:35:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-78
+48-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:36:27-75
+49
+50                <data
+50-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-41:46
+51                    android:host="haadfida.github.io"
+51-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:39:21-54
+52                    android:pathPattern="/resume"
+52-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:40:21-51
+53                    android:scheme="https" />
+53-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:41:21-43
+54            </intent-filter>
+55        </activity>
+56
+57        <meta-data
+57-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-58:57
+58            android:name="preloaded_fonts"
+58-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-43
+59            android:resource="@array/preloaded_fonts" />
+59-->[:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/release/AndroidManifest.xml:58:13-54
+60
+61        <provider
+61-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/f1bfcfe4806f5eab76cf56ec4421889e/jetified-typer-roboto-2.0.0/AndroidManifest.xml:28:9-31:40
+62            android:name="com.rhexgomez.typer.common.TyperProvider"
+62-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/f1bfcfe4806f5eab76cf56ec4421889e/jetified-typer-roboto-2.0.0/AndroidManifest.xml:29:13-68
+63            android:authorities="com.haad.cv.com.rhexgomez.typer.roboto"
+63-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/f1bfcfe4806f5eab76cf56ec4421889e/jetified-typer-roboto-2.0.0/AndroidManifest.xml:30:13-78
+64            android:exported="false" />
+64-->[com.rhexgomez.typer:typer-roboto:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/f1bfcfe4806f5eab76cf56ec4421889e/jetified-typer-roboto-2.0.0/AndroidManifest.xml:31:13-37
+65        <provider
+65-->[com.squareup.picasso:picasso:2.71828] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/996adcc10982eb801a03740e93d9e2f1/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+66            android:name="com.squareup.picasso.PicassoProvider"
+66-->[com.squareup.picasso:picasso:2.71828] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/996adcc10982eb801a03740e93d9e2f1/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+67            android:authorities="com.haad.cv.com.squareup.picasso"
+67-->[com.squareup.picasso:picasso:2.71828] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/996adcc10982eb801a03740e93d9e2f1/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+68            android:exported="false" />
+68-->[com.squareup.picasso:picasso:2.71828] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/996adcc10982eb801a03740e93d9e2f1/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+69    </application>
+70
+71</manifest>
