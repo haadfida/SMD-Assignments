@@ -154,7 +154,7 @@
     <string name="year11">(year)</string>
     <string name="year2">(2019)</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/green1Color</item>
         <item name="colorPrimaryDark">@color/green1Color</item>
         <item name="colorAccent">@color/green1Color</item>
@@ -180,7 +180,7 @@
         <item name="android:fontFamily">@font/roboto</item>
     </style>
     <style name="ToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- set the size of action bar title . -->
         <item name="android:textSize">6sp</item>
     </style>
 </resources>

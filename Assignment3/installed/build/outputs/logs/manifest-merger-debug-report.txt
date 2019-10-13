@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-MERGED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-61:12
+ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+MERGED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-61:12
 MERGED from [com.crowdfire.cfalertdialog:cfalertdialog:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/9bf1ca75d9c02608b24159d1542eec2c/jetified-cfalertdialog-1.1.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.rhexgomez.typer:typer-roboto:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/f1bfcfe4806f5eab76cf56ec4421889e/jetified-typer-roboto-2.0.0/AndroidManifest.xml:16:1-34:12
@@ -47,27 +47,27 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/haadfida/.gradle/cache
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/420f294924962582b4c42c622af43461/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
 	package
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:2:5-39
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:1-9:12
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:1-9:12
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:4:5-8:43
-MERGED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-59:19
-MERGED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-59:19
+ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:4:5-8:43
+MERGED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-59:19
+MERGED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-59:19
 MERGED from [com.crowdfire.cfalertdialog:cfalertdialog:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/9bf1ca75d9c02608b24159d1542eec2c/jetified-cfalertdialog-1.1.0/AndroidManifest.xml:11:5-15:19
 MERGED from [com.crowdfire.cfalertdialog:cfalertdialog:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/9bf1ca75d9c02608b24159d1542eec2c/jetified-cfalertdialog-1.1.0/AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -87,21 +87,21 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/haad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:7:9-35
 	android:label
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:6:9-41
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:6:9-41
 	android:icon
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-43
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:5:9-35
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml:8:9-40
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml:8:9-40
 uses-sdk
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-MERGED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+MERGED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.crowdfire.cfalertdialog:cfalertdialog:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/9bf1ca75d9c02608b24159d1542eec2c/jetified-cfalertdialog-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.crowdfire.cfalertdialog:cfalertdialog:1.1.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/9bf1ca75d9c02608b24159d1542eec2c/jetified-cfalertdialog-1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/cb634fe4b4d1fdfcd5255e485d30a0c1/material-1.0.0/AndroidManifest.xml:20:5-44
@@ -186,76 +186,76 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/haadfida/.
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/66e997bde0b6ece28f7fd36f5f4a1584/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/8787729f29cf7add1bc29c81caccddfd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		ADDED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
-		INJECTED from /Users/haadfida/Downloads/Personal-Resume-master copy/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		ADDED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
+		INJECTED from /Users/haadfida/Desktop/SMD-Assignments/Assignment3/installed/src/main/AndroidManifest.xml
 uses-permission#android.permission.CALL_PHONE
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-69
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-69
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-66
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-66
 activity#com.haad.cv.activities.ScrollingActivity
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-54:20
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-54:20
 	android:label
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-45
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-56
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-68
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-68
 meta-data#default-url
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:64
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:64
 	android:value
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-61
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-61
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-43
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-31:29
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-69
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:25-66
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-77
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:27-74
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:haadfida.github.io+data:pathPattern:/resume/+data:scheme:https
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-42:29
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-42:29
 	android:autoVerify
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:28-53
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:28-53
 action#android.intent.action.VIEW
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-69
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:25-66
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:25-66
 category#android.intent.category.DEFAULT
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-76
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:27-73
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:27-73
 category#android.intent.category.BROWSABLE
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-78
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-78
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:27-75
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:27-75
 data
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-41:46
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-41:46
 	android:host
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:21-54
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:21-54
 	android:scheme
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:21-43
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:21-43
 	android:pathPattern
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:21-51
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:21-51
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:haadfida.github.io+data:pathPattern:/resume+data:scheme:https
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-53:29
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-53:29
 meta-data#preloaded_fonts
-ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:57
+ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:57
 	android:resource
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-54
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-54
 	android:name
-		ADDED from [:base] /Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-43
+		ADDED from [:base] /Users/haadfida/Desktop/SMD-Assignments/Assignment3/base/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-43
 provider#com.rhexgomez.typer.common.TyperProvider
 ADDED from [com.rhexgomez.typer:typer-roboto:2.0.0] /Users/haadfida/.gradle/caches/transforms-2/files-2.1/f1bfcfe4806f5eab76cf56ec4421889e/jetified-typer-roboto-2.0.0/AndroidManifest.xml:28:9-31:40
 	android:authorities
