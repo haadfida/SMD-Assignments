@@ -1,1 +1,0 @@
-[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0","enabled":true,"outputFile":"base-debug.apk","fullName":"debugFeature","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.ahmad.cv.base","split":"","minSdkVersion":"21"}}]

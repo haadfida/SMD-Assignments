@@ -1,7 +1,0 @@
-#Sun Oct 13 12:50:54 PKT 2019
-base.0=/Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/dex/debugFeature/mergeExtDexDebugFeature/out/classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/haadfida/Downloads/Personal-Resume-master copy/base/build/intermediates/dex/debugFeature/mergeProjectDexDebugFeature/out/classes.dex
